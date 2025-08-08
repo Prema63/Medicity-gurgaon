@@ -1,16 +1,16 @@
 "use client";
 
 import React from "react";
-import { IoMdCheckmark } from "react-icons/io";
+import Booking from '../../../global/Booking'
 
 const Section1 = () => {
   return (
     <>
       {/* Banner Section */}
-      <section className="relative w-full min-h-[calc(100vh-80px)]">
+      <section className="relative w-full min-h-[calc(100vh-50px)]">
         <div className="absolute inset-0">
           <img
-            src="http://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2020/02/Main-Slider-Home-Image.jpg?bv_host=medicityserviceapartmentsgurgaon.com&bv-resized-infos=bv_resized_mobile%3A480%2A270%3Bbv_resized_ipad%3A820%2A461%3Bbv_resized_desktop%3A1052%2A592"
+            src="https://node.bluokolkata.com/get/files/m8a0rsku-eeqf8-Bluo-kolkata-banner-BZChCJM5.png"
             alt="Modern apartment interior with blue sofas and elegant furnishing"
             className="w-full h-full object-cover"
           />
@@ -20,21 +20,18 @@ const Section1 = () => {
 
 
       {/* Promo Section */}
-      <section className=" mx-4 my-4 rounded bg-black text-white py-4 px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <section className=" mx-4 my-4 rounded py-4 px-6  justify-between items-center gap-4">
         {/* Text */}
-        <p className="text-center md:text-left text-sm md:text-md">
-          Call now and get 10% off – +91 8587091117
+        <p className="text-center mx-auto md:text-center text-3xl font-bold md:text-md">
+          BluO Stays @ New Town Rajarhat Kolkata
         </p>
-
-        {/* Button */}
-        <div className="flex">
-          <button className="bg-white text-black px-5 py-2 rounded-md shadow hover:bg-gray-100 transition flex items-center gap-2">
-            <IoMdCheckmark className="text-lg" />
-            <span>Book Now</span>
-          </button>
-        </div>
+        <h5 className="text-center mx-auto md:text-center text-xl p-2 md:text-md">
+          Stylish Lake-Facing Boutique Hotel
+        </h5>
       </section>
-      <div className="border-b border-gray-200 py-3"></div>
+      <div className="py-3">
+        <Booking/>
+      </div>
     </>
   );
 };

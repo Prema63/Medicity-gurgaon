@@ -1,42 +1,28 @@
 "use client"
 
 import { useState } from 'react';
+import { FaCheck, FaHome, FaUser } from "react-icons/fa";
+import { PiUsersLight } from "react-icons/pi";
 
 export default function Section3() {
   const [selectedImage, setSelectedImage] = useState(0);
 
   const mainImages = [
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-16-03-24-5-38-18 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com"
+    "https://node.bluokolkata.com/get/files/m8a0qscf-bqylo-first-DxhYexmo.jpg"
   ];
 
   const galleryImages = [
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-16-03-24-5-38-18 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
+    "https://node.bluokolkata.com/get/files/m8a0qscf-bqylo-first-DxhYexmo.jpg",
 
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-18-03-24-12-30-17 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
+    "https://node.bluokolkata.com/get/files/m8a0qsct-2kf95-first-BWpEh84X.jpg",
 
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-16-03-24-6-19-12 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
+    "https://node.bluokolkata.com/get/files/m8a0qsdn-zotqt-fourth-aWwDDidy.jpg",
 
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-18-03-24-12-00-52 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
+    "https://node.bluokolkata.com/get/files/m8a0qsea-wo40y-fifth-DptoCFYb.jpg",
 
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-16-03-24-2-53-04 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
+    "https://node.bluokolkata.com/get/files/m8a0qsek-drtg1-seventh-jn5wucCS.jpg",
 
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-16-03-24-6-21-23 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/03/Photo-18-03-24-11-59-52 AM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/2-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/10-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/1-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/Photo-12-03-24-1-34-18 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/8-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/Photo-12-03-24-1-32-59 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com",
-
-    "https://medicityserviceapartmentsgurgaon.com/wp-content/uploads/al_opt_content/IMAGE/medicityserviceapartmentsgurgaon.com/wp-content/uploads/2024/09/Photo-12-03-24-1-32-36 PM-495x400.jpg.bv_resized_mobile.jpg.bv.webp?bv_host=medicityserviceapartmentsgurgaon.com"
+    "https://node.bluokolkata.com/get/files/m8a0qsfd-cavq5-eight-BCA_V9tK.jpg"
   ];
 
   return (
@@ -44,11 +30,11 @@ export default function Section3() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-xs md:text-xl font-bold text-gray-800 mb-4">
-            SERVICE APARTMENTS AVAILABLE WITH US
+          <h2 className="text-2xl md:text-xl text-gray-800 mb-2 inline-block border-b-1 border-gray-200 pb-1">
+            Facilities & Amenities @ BluO New Town Rajarhat
           </h2>
-          <div className="w-34 h-1 bg-gray-200 mx-auto"></div>
         </div>
+
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/*   Image Section */}
@@ -81,44 +67,62 @@ export default function Section3() {
 
           {/*  Content Section */}
           <div className="space-y-6 text-md">
-            <div>
-              <p className="text-gray-500 leading-relaxed mb-4">
-                We offer modern, custom-designed, non-sharing Service Apartments near{' '}
-                <span className="font-semibold text-gray-600">Medanta Medicity Hospital in Gurgaon</span>.
+            <div className="flex items-start gap-4">
+              <div className="bg-[#42599d] text-white p-4 rounded-full">
+                <FaCheck className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-black leading-relaxed font-bold">
+                Comfortable Stay
               </p>
-
-              <p className="text-gray-500 leading-relaxed mb-4">
-                They are provided in most sizes –{' '}
-                <span className="font-semibold text-gray-600">Studios, One Bedroom</span>{' '}
-                Apartments as well as{' '}
-                <span className="font-semibold text-gray-600">Two & Three Bedroom</span>{' '}
-                Fully Furnished Homes.
+              <p className='text-gray-500'>
+                  With en-suite Bathrooms, we offer clean hygienic Rooms & Suites fitted with Flat screen TV & Tata Sky or Netflix/Prime, having large windows for natural light and views of Lake & Park from quite a few rooms.
               </p>
+              </div>
             </div>
 
-            <div>
-              <p className="text-gray-500 leading-relaxed mb-4">
-                Our USP is that all our apartments come with individual{' '}
-                <span className="font-semibold text-gray-600">fully loaded Kitchens</span>{' '}
-                and Living rooms to give full privacy and space when compared with any Hotel & Guest House near Medanta Hospital.
+            <div className="flex items-start gap-4">
+              <div className="bg-[#42599d] text-white p-4 rounded-full">
+                <FaHome className="w-5 h-5" />
+              </div>
+             <div>
+                <p className="text-black leading-relaxed font-bold">
+                Work Friendly
               </p>
+              <p className='text-gray-500'>
+                  All our Rooms & Suites have Work Desk & comfortable Chair besides high-speed WiFi Internet with 100% Poer backup for Work From Home.
+              </p>
+              </div>
             </div>
 
-            <div>
-              <p className="text-gray-500 leading-relaxed mb-4">
-                Moreover, our Apartments also do not have any shared common areas with other guests ensuring{' '}
-                <span className="font-semibold text-gray-600">Social Distancing, Privacy & Hygiene</span>. We also offer{' '}
-                <span className="font-semibold text-gray-600">Contactless Check-Ins & Digital Payments</span>{' '}
-                with high focus on minimizing close contact.
+            <div className="flex items-start gap-4">
+              <div className="bg-[#42599d] text-white p-4 rounded-full">
+                <FaUser className="w-5 h-5" />
+              </div>
+              <div>
+                <p className="text-black leading-relaxed font-bold">
+                Extras for Guests
               </p>
+              <p className='text-gray-500'>
+                 Terrace Garden with beautiful views of the Lake & Park having al-fresco seating, Home Gym, Table Tennis, Meeting Room and more.
+              </p>
+              </div>
             </div>
 
-            <div className="">
-              <p className="text-gray-500 leading-relaxed">
-                When you stay with us, we can guarantee you a home-like comfortable stay that's facilitated by our Professional Hospitality team – Just perfect for your stay while visiting the{' '}
-                <span className="font-semibold text-gray-600">Medanta Medicity Hospital</span>!
+            <div className="flex items-start gap-4">
+              <div className="bg-[#42599d] text-white p-4 rounded-full">
+                <PiUsersLight className="w-5 h-5" />
+              </div>
+               <div>
+                <p className="text-black leading-relaxed font-bold">
+                Hospitality Culture
               </p>
+              <p className='text-gray-500'>
+                 Managed with high standards by our Professional Hospitality team , BluO Lake View Stays provides 24*7 Support for 5 star rated service stays of all guests.
+              </p>
+              </div>
             </div>
+
           </div>
 
         </div>

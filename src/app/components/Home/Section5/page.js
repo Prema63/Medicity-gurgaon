@@ -1,41 +1,51 @@
 "use client";
 
 import React from "react";
-import { IoBookmarks } from "react-icons/io5";
-import { FaGlobeEurope } from "react-icons/fa";
+import { IoHomeSharp } from "react-icons/io5";
+import { LuUserRoundCheck } from "react-icons/lu";
+import { FaBookmark } from "react-icons/fa6";
 
 const page = () => {
   return (
     <div className="mt-12 px-4 sm:px-6 lg:px-8">
       {/* Features Section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 xl:gap-16">
-        {/* Medical Tourism Packages */}
-        <div className="flex flex-col items-center text-center bg-gray-100 rounded px-4 py-6">
-          <div className="w-20 h-20 bg-black rounded-full flex items-center justify-center mb-6 shadow-lg">
-            <IoBookmarks className="text-white w-8 h-8" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-9 xl:gap-12">
+        {/* Top Location */}
+        <div className="flex flex-col items-center text-center  rounded px-4 py-6">
+          <div className="w-20 h-20 bg-[#b02b2c] rounded-full flex items-center justify-center mb-6 shadow-lg">
+            <IoHomeSharp className="text-white w-8 h-8" />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 mb-4 uppercase tracking-wide">
-            Medical Tourism Packages
+            Top Location
           </h2>
-          <p className="text-gray-800 text-base leading-relaxed max-w-md">
-            We specialize in making complete Medical Tourism packages of
-            Gurgaon & Delhi hospitals for Indian as well as Overseas guests and
-            provide end-to-end healthcare solutions.
+          <p className="text-gray-500 text-base leading-relaxed max-w-md">
+            Private, non-sharing stays with Wifi & Netflix/Prime at prime location in New Town Rajarhat.
           </p>
         </div>
 
-        {/* Delhi Sightseeing Tours */}
-        <div className="flex flex-col items-center text-center bg-gray-100 rounded px-4 py-6">
-          <div className="w-20 h-20 bg-black rounded-full flex items-center justify-center mb-6 shadow-lg">
-            <FaGlobeEurope className="text-white w-8 h-8" />
+        {/* Add on amenities */}
+        <div className="flex flex-col items-center text-center rounded px-4 py-6">
+          <div className="w-20 h-20 bg-[#b02b2c] rounded-full flex items-center justify-center mb-6 shadow-lg">
+            <LuUserRoundCheck className="text-white w-8 h-8" />
           </div>
           <h2 className="text-xl font-semibold text-gray-800 mb-4 uppercase tracking-wide">
-            Delhi Sightseeing Tours
+            Add-On Amenities
           </h2>
-          <p className="text-gray-800 text-base leading-relaxed max-w-md">
-            If you want a break from the hospital stress, our Travel Desk can
-            also organize day trips to Delhi and nearby areas, plus Weekend
-            Getaway packages to Agra & Jaipur for our guests.
+          <p className="text-gray-500 text-base leading-relaxed max-w-md">
+            Additional Amenities for Guests – Gym, Terrace Garden, Meeting Room, Table Tennis and more .
+          </p>
+        </div>
+
+        {/* corporate discount */}
+        <div className="flex flex-col items-center text-center rounded px-4 py-6">
+          <div className="w-20 h-20 bg-[#b02b2c] rounded-full flex items-center justify-center mb-6 shadow-lg">
+            <FaBookmark className="text-white w-8 h-8" />
+          </div>
+          <h2 className="text-xl font-semibold text-gray-800 mb-4 uppercase tracking-wide">
+            Corporate Discounts
+          </h2>
+          <p className="text-gray-500 text-base leading-relaxed max-w-md">
+            Attractive Corporate Plans with Breakfast, GST Invoice & Repeat Guest Offers – NO hidden charges!
           </p>
         </div>
       </div>
@@ -43,81 +53,49 @@ const page = () => {
       <div className="border-b border-gray-200 mt-12 mb-12" />
 
       {/* Service Apartments Content Section */}
-      <div className="max-w-6xl mx-auto text-gray-800 space-y-6 text-sm sm:text-base leading-relaxed">
-        <h2 className="text-2xl font-semibold text-black">
-          Service Apartments near Medanta Medicity Hospital in Gurgaon
+      <div className=" text-gray-800 space-y-6 text-sm sm:text-base leading-relaxed">
+        <h2 className="text-3xl  text-black">
+          About Us @ BluO Stays – Hotel Apartments Rooms Kolkata
         </h2>
 
-        <p>
-          At <strong>Walking Distance from Medanta Medicity</strong> Hospital
-          Gurgaon, we offer fully furnished, self-catered serviced apartments
-          combining the warmth of your home with the conveniences of a hotel at
-          affordable prices. All our serviced residences are very spacious as
-          compared to nearby hotels & guest houses, and all of them come with
-          their own private kitchens that are fully equipped to make complete
-          meals. Housekeeping services and linen changes (bedsheets & towels)
-          are included in rentals, along with Tata Sky TV, WiFi internet, 24
-          hour security, power backup, RO water purifier, and elevator access.
+        <p className=" text-gray-500 underline">
+          Our USP @ BluO Hotel in New Town Rajarhat – Boutique accommodation that fits needs of all guests with privacy and amenities comparable to other Business Hotels & Guest Houses in Kolkata.
         </p>
 
-        <p className="italic font-medium">
-          We are situated at just 20 min drive from the Delhi International
-          Airport and the nearest Metro Station is HUDA City Centre which is
-          just 5 min drive away.
+        <p className="text-gray-500">
+          What are the typical guests staying at BluO Hotel Apartments Kolkata?
         </p>
 
-        <p>
-          Our Medical Tourism Services Team in Gurgaon provides one-stop
-          services for medical guests coming to Medanta Hospital and other
-          nearby hospitals like Fortis Hospital, Artemis Hospital, Paras, Park
-          Hospital & MAX among others. We cover the entire gamut of services
-          desired by travelling patients — hospital appointments, visa and
-          travel paperwork, boarding and lodging with international cuisine,
-          doctor-on-call, hospital transfers, medicine delivery, currency
-          exchange, and sightseeing packages.
+        <p className= "text-gray-500">
+          We are very popular with Business Executives working out of New Town Rajarhat & Salt Lake Sector V Corporate Hub. Our diverse Room categories ensure we cater to guests with mid or high end budgets across Standard Rooms, Lake Facing Rooms & Suites.
         </p>
 
-        <h3 className="text-xl font-semibold text-black mt-6">
-          Our USP – Individual, Private Kitchens in All Apartments
-        </h3>
+        <p className="text-gray-500 italic">
+          PET FRIENDLY – We welcome Pets as long as our guests ensure to leash them and not discomfort other guests.
+        </p>
 
-        <p>
-          What sets us apart from regular hotels & guest houses in Gurgaon is
-          the availability of private, fully-equipped kitchens in all our
-          apartments. These kitchens include gas, stovetops, hobs,
-          refrigerators, cookware, microwave, electric kettle, toaster,
-          crockery, cutlery, and glassware to meet dietary requirements. Our
-          kitchens are exclusive to each unit and not shared between guests. We
-          also provide fully automatic washing machines and ironing facilities
-          so guests can do their own laundry. These conveniences make stays more
-          comfortable and affordable than hotels & guest houses.
+        <p className="text-gray-500">
+          We are proud to be a non-discriminating setup with honest pricing and no hidden charges, so guests are assured of value-for-money services.
+        </p>
+
+        <p className="text-gray-500">
+          Our In-House Concierge Team also offers MICE facilities with compplete Stays and F&B packages. We also take bookings for Corporate Parties & Get-Togethers across different venues – Terrace Garden & Party Hall.
+        </p>
+
+        <p className="text-gray-500">
+          * Our 
+          <span className="underline">
+            Corporate Guest House Management Team
+            </span> 
+            also specialises in setting up and managing dedicated Guest houses in Kolkata for Pan-India Companies having regular corporate travel needs at Kolkata and across other cities of India where we offer our services.
+        </p>
+        
+        <p className="text-gray-500 italic mb-8">
+          Please connect with our Sales Team for setting up your customised corporate stay plan!
         </p>
       </div>
 
-      {/* Home Away From Home Section */}
-      <div className="max-w-6xl mx-auto mt-12 mb-20 text-gray-800 text-sm sm:text-base leading-relaxed space-y-4">
-        <h2 className="text-lg sm:text-xl font-semibold text-black">
-          Home Away From Home for Medical Tourists to Gurgaon
-        </h2>
-
-        <p>
-          We endeavour to provide all our guests with a home away from home
-          feeling when staying with us which is unlike the budget hotels near
-          Medanta or guest house rooms near Medanta. Our professional
-          hospitality team consists of bilingual staff who understand the needs
-          of medical guests including high focus on hygiene for an infection
-          free environment along with peaceful and noiseless surroundings. With
-          different sizes of accommodations including – Deluxe Rooms, Studios
-          and One to Three Bedroom Apartments that include living rooms and
-          kitchens plus washing machines, we cater to entire families of
-          patients who stay together with comforts of their own home.
-        </p>
-
-        <p className="font-semibold text-black">
-          Please choose us for your visit to Medanta Medicity Hospital, you can
-          connect with us via our Contact Us for a customised quote!
-        </p>
-      </div>
+      
     </div>
   );
 };
