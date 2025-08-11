@@ -45,14 +45,15 @@ export default function Section3() {
                 src={galleryImages[selectedImage]}
                 alt="Service Apartment Main View"
                 className="w-full h-64 md:h-80 lg:h-96 object-cover p-2"
-              />            </div>
+              />            
+              </div>
 
             {/* Gallery Grid */}
-            <div className="grid grid-cols-7 gap-2">
+            <div className="grid grid-cols-7 gap-2  ml-14">
               {galleryImages.map((image, index) => (
                 <div
                   key={index}
-                  className="aspect-square overflow-hidden rounded border border-gray-200"
+                  className="aspect-square overflow-hidden  rounded border border-gray-200"
                   onClick={() => setSelectedImage(index)}
                 >
                   <img

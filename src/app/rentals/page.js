@@ -26,7 +26,7 @@ export default function Rooms() {
         </div>
 
         {/* Main Content */}
-        <div className="container  px-4 py-8 flex flex-col lg:flex-row gap-8">
+        <div className="container mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
           {/* Left Section */}
           <div className="w-full lg:w-2/3 text-gray-800 space-y-4">
             <p className="font-bold text-3xl">

@@ -122,7 +122,7 @@ export default function Pricing() {
             </div>
 
             {/* Main Content */}
-            <div className="container px-4 py-8 flex flex-col lg:flex-row gap-8 max-w-7xl">
+            <div className="container px-4 py-8  mx-auto flex flex-col lg:flex-row gap-8 max-w-7xl">
                 {/* Left Section */}
                 <div className="w-full lg:w-2/3 space-y-6">
                     <div className="space-y-4">

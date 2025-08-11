@@ -81,8 +81,8 @@ y
     <>
       <ToastContainer />
       <div className="w-full text-white">
-        <div className="flex flex-wrap bg-[#232b30] text-white p-4">
-          <div className="w-full lg:w-2/3">
+        <div className="flex flex-wrap bg-[#232b30]  text-white p-16">
+          <div className="w-full lg:w-2/3 ">
             <div className="flex flex-wrap">
               {/* Distance from Key Areas */}
               <div className="w-full md:w-1/2">

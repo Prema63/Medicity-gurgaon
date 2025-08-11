@@ -50,10 +50,11 @@ const page = () => {
         </div>
       </div>
 
+
       <div className="border-b border-gray-200 mt-12 mb-12" />
 
       {/* Service Apartments Content Section */}
-      <div className=" text-gray-800 space-y-6 text-sm sm:text-base leading-relaxed">
+      <div className=" text-gray-800 space-y-6  mx-auto text-sm sm:text-base leading-relaxed">
         <h2 className="text-3xl  text-black">
           About Us @ BluO Stays – Hotel Apartments Rooms Kolkata
         </h2>
@@ -94,7 +95,6 @@ const page = () => {
           Please connect with our Sales Team for setting up your customised corporate stay plan!
         </p>
       </div>
-
       
     </div>
   );

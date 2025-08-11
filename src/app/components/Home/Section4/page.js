@@ -9,21 +9,21 @@ const Section4 = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Amazing experience! The staff was incredibly helpful and the amenities exceeded our expectations. The location is perfect for business travelers and the rooms are spacious and well-maintained. Would highly recommend to anyone visiting the area.",
-      name: "Rajesh Kumar",
-      location: "Delhi"
+      text: "Stayed with my family of 4, everything is super clean and service is the best. Loved the kitchen, also the fact that Medanta Medicity hospital was at walking distance. I would definitely stay here again as it is perfect for family who want to stay in safe and clean apartment near the hospital. We appreciated that we’re able to check out late, and our luggage was kept for us for the rest of our stay. Thank you very much. Great service.",
+      name: "Nidhi Chopra",
+      location: "Mumbai"
     },
     {
       id: 2,
-      text: "Perfect stay for our weekend getaway. The property is beautifully designed and very clean. The proximity to major attractions made our trip so convenient. The hospitality was outstanding and we felt very welcome throughout our stay.",
-      name: "Priya Sharma",
-      location: "Bangalore"
+      text: "The apartment itself is wonderful, walking distance from Medanta Medicity Hospital. The wifi is fantastic, Spotlessly clean with a lovely Kitchen. Nice shower. Very convenient parking too. I couldn’t recommend the apartment itself any more! One tiny thing – it would be great if apartment had a safe to put ones valuables.",
+      name: "Anna Vencel",
+      location: "Ukraine"
     },
     {
       id: 3,
-      text: "Exceptional service and attention to detail. The room was comfortable and had all the necessary amenities. The staff went above and beyond to ensure our comfort. Will definitely be staying here again on our next visit.",
-      name: "Amit Patel",
-      location: "Ahmedabad"
+      text: "It was a very comfortable stay and conveniently located apartment with great amenities besides our own Kitchen and lovely staff that are always available on call. We will definitely stay here again and not in any hotel!.",
+      name: "Venkatesh RP",
+      location: "Bangalore"
     }
   ];
 

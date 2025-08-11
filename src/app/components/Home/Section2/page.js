@@ -30,12 +30,12 @@ export default function Section2() {
       </div>
 
       {/* Promo Section */}
-        <section className=" bg-gray-800 h-28  text-white justify-between items-center">
+        <section className=" bg-gray-800 h-28 py-5 text-white justify-between items-center">
           {/* Text */}
-          <p className="text-center text-md mx-auto py-3">
+          <p className="text-center text-md mx-auto py-2">
             Premium Business Hotel Rooms in New Town Rajarhat Kolkata!
           </p>
-          <p className="text-center text-md mx-auto py-2">
+          <p className="text-center text-md mx-auto ">
             Call or Whatsapp +919999222706
           </p>
         </section>

@@ -128,9 +128,9 @@ export default function AboutUs() {
                 </div>
 
                 {/* Main Content */}
-                <div className="container px-5 py-8 flex flex-col lg:flex-row gap-8">
+                <div className="container mx-auto px-5 py-8 flex flex-col lg:flex-row gap-8">
                     {/* Left Section */}
-                    <div className="w-full lg:w-2/3 text-gray-400 space-y-4 p-2">
+                    <div className="w-full lg:w-2/3 text-gray-600 space-y-4 p-2">
                         <p className="text-2xl text-gray-800 mb-4">
                            FAQs – Frequently Asked Questions
                         </p>
